@@ -10,6 +10,7 @@ Hello! I am Daniel - web-designer and developer (HTML, CSS) from Saint Petersbur
 ## Skills ##
 * HTML
 * CSS
+* Git
 
 ## Code examples ##
 ```
