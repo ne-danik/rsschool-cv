@@ -42,13 +42,13 @@ Hello! I am Daniel - web-designer and developer (HTML, CSS) from Saint Petersbur
 </style>
 
 <form method="get" action="/search" id="search">
-<input name="q" type="text" size="40" placeholder="Поиск..." /><input type="submit" name="sfSbm" value="" title="Искать" />
+<input name="q" type="text" size="40" placeholder="Search..." /><input type="submit" name="sfSbm" value="Search" title="Search" />
 </form>
  
 ```
 
 ## Experience ##
-* Сreating a website for children's recreation ([View...](http://centr-otdyha.ucoz.ru))
+* Creating a website for children's recreation ([View...](http://centr-otdyha.ucoz.ru))
 * Creating a website for the Olympiad of Institute ([View...](https://olympit.ucoz.ru))
 * Examples of my work in web-design are available here: https://www.behance.net/nedanik
 
