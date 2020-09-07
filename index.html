@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<title>HTML, CSS & Git Basics</title>
+<link rel="stylesheet" href="style.css">
+<meta content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="content">
+
+<header>
+<img class="photo" src="photo.jpg" alt="Photo of Daniel Yasakov">
+<h1 class="name">Daniel Yasakov</h1>
+</header>
+
+<main>
+
+<section id="contacts">
+<h2>Contact Info</h2>
+<p><strong>phone:</strong> +7 902 264 80 32<br/>
+<strong>email:</strong> <a href="mailto:yasakovdanil@gmail.com">yasakovdanil@gmail.com</a></p>
+</section>
+
+<section id="summary">
+<h2>Summary</h2>
+<p>Hello! I am Daniel &mdash; web-designer and developer (HTML, CSS) from Saint Petersburg, Russia. I have lack of experience to Junior Developer, but I am very actively developing and strive to become the best at what I do.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+</section>
+
+<section id="code">
+<h2>Code examples</h2>
+<pre>
+&lt;style&gt;
+#search input[type="text"] {
+ border: 0;
+ border-bottom: 1px solid #fff;
+ width: 100px;
+ -webkit-transition: all 0.7s ease 0s;
+ -moz-transition: all 0.7s ease 0s;
+ -o-transition: all 0.7s ease 0s;
+ transition: all 0.7s ease 0s;
+ font: 12px Verdana;
+ color: inherit;
+ margin: 6px;
+}
+
+#search input[type="text"]:hover{
+ border-bottom: 1px solid rgba(0,0,0,0.1);
+ outline: none;
+ width: 200px;
+} 
+
+#search input[type="text"]:focus {
+ border-bottom: 1px solid rgba(0,0,0,0.1);
+ outline: none;
+ color: #f14235;
+ width: 200px;
+} 
+&lt;/style&gt;
+
+&lt;form method="get" action="/search" id="search"&gt;
+   &lt;input name="q" type="text" size="40" placeholder="Ïîèñê..." /&gt;
+   &lt;input type="submit" name="sfSbm" value="" title="Èñêàòü" /&gt;
+&lt;/form>
+</pre>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<p>Ñreating a website for children's recreation <a href="http://centr-otdyha.ucoz.ru">View...</a><br/>
+Creating a website for the Olympiad of Institute <a href="https://olympit.ucoz.ru">View...</a><br/>
+Examples of my work in web-design are available here: <a href="https://www.behance.net/nedanik">https://www.behance.net/nedanik</a></p>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<p><strong>Nizhny Tagil State University Social and Pedagogical Institute</strong> <em>2011-2015</em><br/>
+Faculty: of natural Science, Mathematics and computer Science.</p>
+</section>
+
+<section id="english">
+<h2>English</h2>
+<p>A1 &mdash; Elementary</p>
+</section>
+
+</main>
+
+</div>
+</body>
+
+</html>
