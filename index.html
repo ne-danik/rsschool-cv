@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV: Daniel Yasakov</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div>
+            <h1 class="header__title">
+              Hello World!<br />
+              I’m Daniel Yasakov
+            </h1>
+            <p class="header__subtitle">Junior Frontend Developer</p>
+          </div>
+          <div>
+            <img class="header__photo" src="images/photo.png" alt="My photo">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="section about">
+          <h2 class="section__title">
+            < About me />
+          </h2>
+          <p class="text-block">
+            I first got acquainted with web development in 2009. I started learning on my own at school. Then I made my
+            first website for the company. Then I continued my studies at the institute, where my graduation work was
+            the creation of a website for the
+            Olympiad on IT-technologies of my institute. After there was a big break in programming. In 2020, he
+            returned to
+            layout. I started to work seriously, doing pet projects for my portfolio. I am currently studying online at
+            The Rolling Scopes (RS School) on the JavaScript/Front-end course.
+          </p>
+          <p class="text-block">
+            In the future, I want to become a cool front-end developer. I don't have a lot of commercial web development
+            experience, but I'm very active and strive to be the best at what I do.
+          </p>
+        </section>
+
+        <section class="section education">
+          <h2 class="section__title">
+            < Education />
+          </h2>
+          <div class="activity">
+            <div class="activity__year">09.2011 - 06.2015</div>
+            <div class="activity__content">
+              <p class="activity__title">
+                Russian State Vocational Pedagogical University, Yekaterinburg
+              </p>
+              <p class="activity__subtitle">
+                Institute of Natural Science, Mathematics and Informatics, Applied
+                Informatics in Economics
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section work">
+          <h2 class="section__title">
+            < Work experience />
+          </h2>
+          <div class="activity">
+            <div class="activity__year">10.2014 - 12.2014</div>
+            <div class="activity__content">
+              <p class="activity__title">
+                Nizhny Tagil State Socio-Pedagogical Institute
+              </p>
+              <p class="activity__subtitle">
+                Website developer (thesis)
+              </p>
+            </div>
+          </div>
+          <div class="activity">
+            <div class="activity__year">01.2013 - 06.2014</div>
+            <div class="activity__content">
+              <p class="activity__title">
+                Organization of recreation and health improvement of children
+              </p>
+              <p class="activity__subtitle">
+                Website Developer
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section code">
+          <h2 class="section__title">
+            < Code example />
+          </h2>
+          <div class="code__box">
+            <pre>const runLengthEncoding = (str) => {
+  str = str.split('');
+
+  let arr = [];
+  let counter = 1;
+
+  for(let i = 0; i < str.length; i++) {
+    if(str[i] === str[i + 1]) {
+      counter++;
+    } else {
+      arr.push([counter, str[i]]);
+      counter = 1;
+    }
+  }
+
+  return arr;
+}</pre>
+          </div>
+        </section>
+
+        <section class="section projects">
+          <h2 class="section__title">
+            < Projects />
+          </h2>
+          <div class="projects__content">
+            <div class="projects__item project">
+              <img class="project__img" src="images/project_1.jpg" alt="">
+              <div class="project__content">
+                <p class="project__title">SpaceX Portal</p>
+                <p class="project__desc">
+                  React, React hooks, React Router, SpaceX API, Weather API, Swiper, moment.js
+                </p>
+              </div>
+              <div class="project__footer">
+                <div class="project__deploy-links">
+                  <a class="project__deploy-link" href="https://github.com/ne-danik/spacex-portal" target="_blank">
+                    <img src="images/icons/github.svg" alt="Github" title="Github">
+                  </a>
+                  <a class="project__deploy-link" href="https://vercel.com/ne-danik/spacex-portal" target="_blank">
+                    <img src="images/icons/vercel.svg" alt="Vercel" title="Vercel">
+                  </a>
+                </div>
+                <a class="project__visit" href="https://spacex-portal.vercel.app" target="_blank">View</a>
+              </div>
+            </div>
+            <div class="projects__item project">
+              <img class="project__img" src="images/project_2.jpg" alt="">
+              <div class="project__content">
+                <p class="project__title">MajorDom</p>
+                <p class="project__desc">Gulp, webpack, Splide</p>
+              </div>
+              <div class="project__footer">
+                <div class="project__deploy-links">
+                  <a class="project__deploy-link" href="https://github.com/ne-danik/major-dom" target="_blank">
+                    <img src="images/icons/github.svg" alt="Github" title="Github">
+                  </a>
+                  <a class="project__deploy-link" href="https://vercel.com/ne-danik/major-dom" target="_blank">
+                    <img src="images/icons/vercel.svg" alt="Vercel" title="Vercel">
+                  </a>
+                </div>
+                <a class="project__visit" href="https://major-dom.vercel.app" target="_blank">View</a>
+              </div>
+            </div>
+            <div class="projects__item project">
+              <img class="project__img" src="images/project_3.jpg" alt="">
+              <div class="project__content">
+                <p class="project__title">Gora Dolgaya</p>
+                <p class="project__desc">Svelte, moment.js</p>
+              </div>
+              <div class="project__footer">
+                <div class="project__deploy-links">
+                  <a class="project__deploy-link" href="https://github.com/ne-danik/aist" target="_blank">
+                    <img src="images/icons/github.svg" alt="Github" title="Github">
+                  </a>
+                </div>
+                <a class="project__visit" href="https://ne-danik.github.io/aist" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <div class="container">
+          <section class="section contacts">
+            <h2 class="section__title">
+              < Contacts />
+            </h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <img class="contacts__icon" src="images/icons/phone.svg" alt="Phone">
+                <a class="contacts__link" href="tel:+7 902 264 80 32">+7 902 264 80 32</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="images/icons/email.svg" alt="Email">
+                <a class="contacts__link" href="mailto:yasakovdanil@gmail.com">yasakovdanil@gmail.com</a>
+              </li>
+            </ul>
+            <ul class="contacts__list socials">
+              <li class="contacts__item">
+                <img class="contacts__icon" src="images/icons/socials/github_black.svg" alt="Github">
+                <a class="contacts__link" href="https://github.com/ne-danik" target="_blank">github.com</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="images/icons/socials/linkedin.svg" alt="LinkedIn">
+                <a class="contacts__link"
+                  href="https://www.linkedin.com/in/%D0%B4%D0%B0%D0%BD%D0%B8%D0%BB-%D1%8F%D1%81%D0%B0%D0%BA%D0%BE%D0%B2-a15a08235"
+                  target="_blank">linkedin.com</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="images/icons/socials/behance.svg" alt="Behance">
+                <a class="contacts__link" href="https://www.behance.net/nedanik" target="_blank">behance.net</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="images/icons/socials/vk.svg" alt="VK">
+                <a class="contacts__link" href="https://vk.com/ne.danik" target="_blank">vk.com</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="images/icons/socials/discord.svg" alt="Discord">
+                <a class="contacts__link" href="https://discord.com/users/ne-danik" target="_blank">@ne-danik</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section skills">
+            <h2 class="section__title">
+              < Skills />
+            </h2>
+            <div class="skills__list">
+              <div class="skills__item skill">
+                <p class="skill__title">HTML5</p>
+                <div class="skill__rating skill__rating--red"><span style="width: 85%" /></div>
+              </div>
+              <div class="skills__item skill">
+                <p class="skill__title">CSS3 (SCSS)</p>
+                <div class="skill__rating skill__rating--blue"><span style="width: 85%" /></div>
+              </div>
+              <div class="skills__item skill">
+                <p class="skill__title">JavaScript</p>
+                <div class="skill__rating skill__rating--yellow"><span style="width: 65%" /></div>
+              </div>
+              <div class="skills__item skill">
+                <p class="skill__title">React + Redux</p>
+                <div class="skill__rating skill__rating--cyan"><span style="width: 50%" /></div>
+              </div>
+              <div class="skills__item skill">
+                <p class="skill__title">Svelte</p>
+                <div class="skill__rating skill__rating--yellow"><span style="width: 33%" /></div>
+              </div>
+              <div class="skills__item skill">
+                <p class="skill__title">Gulp, webpack</p>
+                <div class="skill__rating skill__rating--red"><span style="width: 40%" /></div>
+              </div>
+              <div class="skills__item skill">
+                <p class="skill__title">Git, GitHub</p>
+                <div class="skill__rating skill__rating--gray"><span style="width: 33%" /></div>
+              </div>
+              <div class="skills__item skill">
+                <p class="skill__title">Figma, Adobe Photoshop</p>
+                <div class="skill__rating skill__rating--purple"><span style="width: 75%" /></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section courses">
+            <h2 class="section__title">
+              < Courses />
+            </h2>
+            <div class="course">
+              <p class="course__title">
+                The Complete JavaScript + React Course - From Zero to Result
+              </p>
+              <p class="course__subtitle">
+                Udemy
+              </p>
+              <p class="course__year">2021-2022</p>
+            </div>
+            <div class="course">
+              <p class="course__title">
+                JavaScript/Front-end
+              </p>
+              <p class="course__subtitle">
+                The Rolling Scopes School
+              </p>
+              <p class="course__year">2022</p>
+            </div>
+          </section>
+
+          <section class="section languages">
+            <h2 class="section__title">
+              < Languages />
+            </h2>
+            <div class="languages__item">
+              <span>English</span>
+              <p>A1 - Elementary</p>
+            </div>
+          </section>
+        </div>
+      </aside>
+    </main>
+  </div>
+  
+</body>
+
+</html>
